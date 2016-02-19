@@ -3,10 +3,6 @@
   "id": 1,
   "formatVersion": 2,
   "ideas": {
-    "1": {
-      "title": "Serialization",
-      "id": 2
-    },
     "11": {
       "title": "Concurrency Control",
       "id": 3,
@@ -22,9 +18,9 @@
       },
       "attr": {
         "position": [
-          227.5,
-          -179,
-          6
+          493.5,
+          -276,
+          10
         ],
         "style": {}
       }
@@ -58,9 +54,14 @@
           }
         },
         "3": {
-          "title": "sdfsdf",
+          "title": "Encapsulation",
           "id": 13,
-          "ideas": {},
+          "ideas": {
+            "1": {
+              "title": "Getter and Setters",
+              "id": 38
+            }
+          },
           "attr": {
             "position": [
               174,
@@ -71,7 +72,7 @@
           }
         },
         "4": {
-          "title": "sdfdsf",
+          "title": "Polymorphism",
           "id": 16,
           "attr": {
             "position": [
@@ -80,6 +81,22 @@
               4
             ],
             "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "method overriding ",
+              "id": 39,
+              "ideas": {
+                "1": {
+                  "title": "Data Hiding",
+                  "id": 41
+                }
+              }
+            },
+            "2": {
+              "title": "method overloading",
+              "id": 40
+            }
           }
         }
       },
@@ -166,37 +183,85 @@
         "style": {}
       }
     },
-    "14": {
-      "title": "Assertions",
-      "id": 27
-    },
-    "24": {
-      "title": "Exception Handling",
-      "id": 28
-    },
     "34": {
       "title": "Inner Class",
-      "id": 29
-    },
-    "44": {
-      "title": "Internalization",
-      "id": 30
-    },
-    "54": {
-      "title": "Java 8 Features",
-      "id": 31
+      "id": 29,
+      "attr": {
+        "position": [
+          263.5,
+          330,
+          7
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Static",
+          "id": 33,
+          "attr": {
+            "position": [
+              151,
+              -60,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Non-Static",
+          "id": 34,
+          "ideas": {
+            "1": {
+              "title": "Member Inner Class",
+              "id": 35
+            },
+            "2": {
+              "title": "Local Inner Class",
+              "id": 36
+            },
+            "3": {
+              "title": "Anonymous Inner Class",
+              "id": 37
+            }
+          }
+        }
+      }
     },
     "-1": {
       "title": "Reflection",
-      "id": 6
+      "id": 6,
+      "attr": {
+        "position": [
+          225.5,
+          -188,
+          25
+        ],
+        "style": {}
+      }
     },
     "-2": {
       "title": "Java IO",
-      "id": 7
+      "id": 7,
+      "attr": {
+        "position": [
+          221.5,
+          -140,
+          24
+        ],
+        "style": {}
+      }
     },
     "-12": {
       "title": "Garbage Collections",
-      "id": 8
+      "id": 8,
+      "attr": {
+        "position": [
+          184.5,
+          -79,
+          23
+        ],
+        "style": {}
+      }
     },
     "-13": {
       "title": "Regular Expression",
@@ -204,12 +269,85 @@
       "attr": {
         "style": {
           "background": "#ff0000"
-        }
+        },
+        "position": [
+          194.5,
+          -20,
+          22
+        ]
       }
     },
     "-14": {
       "title": "Generics",
-      "id": 32
+      "id": 32,
+      "attr": {
+        "position": [
+          237.5,
+          -12,
+          17
+        ],
+        "style": {}
+      }
+    },
+    "-0.5": {
+      "title": "Serialization",
+      "id": 2,
+      "attr": {
+        "position": [
+          205.5,
+          -252,
+          26
+        ],
+        "style": {}
+      }
+    },
+    "-24": {
+      "title": "Java 8 Features",
+      "id": 31,
+      "attr": {
+        "position": [
+          237.5,
+          164,
+          19
+        ],
+        "style": {}
+      }
+    },
+    "-34": {
+      "title": "Internalization",
+      "id": 30,
+      "attr": {
+        "position": [
+          255.5,
+          221,
+          20
+        ],
+        "style": {}
+      }
+    },
+    "-19": {
+      "title": "Assertions",
+      "id": 27,
+      "attr": {
+        "style": {},
+        "position": [
+          234.5,
+          54,
+          18
+        ]
+      }
+    },
+    "-44": {
+      "title": "Exception Handling",
+      "id": 28,
+      "attr": {
+        "style": {},
+        "position": [
+          233.5,
+          269,
+          21
+        ]
+      }
     }
   },
   "attr": {
