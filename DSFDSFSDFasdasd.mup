@@ -1,5 +1,5 @@
 {
-  "title": "DSFDSFSDFasdasd",
+  "title": "Java Training",
   "id": 1,
   "formatVersion": 2,
   "attr": {
@@ -32,21 +32,66 @@
         }
       }
     },
+    "2": {
+      "title": "dfgfgd",
+      "id": 15,
+      "ideas": {
+        "1": {
+          "title": "f",
+          "id": 13
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    },
     "-1": {
       "title": "dasdasd",
-      "id": 7
+      "id": 7,
+      "attr": {
+        "position": [
+          229,
+          -224.5857864376269,
+          1
+        ],
+        "style": {}
+      }
     },
     "-11": {
       "title": "sdsad",
-      "id": 8
+      "id": 8,
+      "attr": {
+        "position": [
+          554,
+          -27.585786437626894,
+          2
+        ],
+        "style": {}
+      }
     },
-    "-21": {
+    "-41": {
       "title": "asdasd",
-      "id": 9
+      "id": 9,
+      "attr": {
+        "position": [
+          306,
+          122.4142135623731,
+          3
+        ],
+        "style": {}
+      }
     },
-    "-31": {
+    "-51": {
       "title": "dasdasd",
-      "id": 10
+      "id": 10,
+      "attr": {
+        "position": [
+          170,
+          196.4142135623731,
+          4
+        ],
+        "style": {}
+      }
     }
   }
 }
