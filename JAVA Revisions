@@ -57,21 +57,8 @@
             "style": {}
           }
         },
-        "3": {
-          "title": "sdfsdf",
-          "id": 13,
-          "ideas": {},
-          "attr": {
-            "position": [
-              174,
-              21,
-              3
-            ],
-            "style": {}
-          }
-        },
         "4": {
-          "title": "sdfdsf",
+          "title": "Polymorphism",
           "id": 16,
           "attr": {
             "position": [
@@ -80,6 +67,16 @@
               4
             ],
             "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "method overloading",
+              "id": 51
+            },
+            "2": {
+              "title": "method overriding",
+              "id": 52
+            }
           }
         }
       },
@@ -176,7 +173,32 @@
     },
     "34": {
       "title": "Inner Class",
-      "id": 29
+      "id": 29,
+      "ideas": {
+        "1": {
+          "title": "Static",
+          "id": 40,
+          "ideas": {}
+        },
+        "2": {
+          "title": "non static",
+          "id": 47,
+          "ideas": {
+            "1": {
+              "title": "Member",
+              "id": 48
+            },
+            "2": {
+              "title": "Local Inner ",
+              "id": 49
+            },
+            "3": {
+              "title": "Anonymous",
+              "id": 50
+            }
+          }
+        }
+      }
     },
     "44": {
       "title": "Internalization",
