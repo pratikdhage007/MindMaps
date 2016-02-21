@@ -1,0 +1,31 @@
+{
+  "title": "EJB 3.0 (Based on POJO Programming Model)",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#00ff00"
+    }
+  },
+  "ideas": {
+    "1": {
+      "title": "Session Bean",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Stateful",
+          "id": 6
+        },
+        "2": {
+          "title": "Stateless",
+          "id": 7
+        }
+      }
+    },
+    "11": {
+      "title": "Message Driven Bean",
+      "id": 3
+    }
+  },
+  "links": []
+}
