@@ -1,0 +1,76 @@
+{
+  "title": "Spring 4.0",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#00ffff"
+    }
+  },
+  "ideas": {
+    "1": {
+      "title": "LightWeight",
+      "id": 3
+    },
+    "-1": {
+      "title": "IOC",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "Inversion Control is General Control. Dependency Injection is concrete example",
+          "id": 11
+        },
+        "2": {
+          "title": "descrive which services are needed  by whivch component - In a configurarion file",
+          "id": 14
+        },
+        "3": {
+          "title": "Types of IOC (DI)",
+          "id": 15,
+          "ideas": {
+            "1": {
+              "title": "Constructor based Dependency Injection",
+              "id": 16,
+              "ideas": {
+                "1": {
+                  "title": "Contsiner invokes a class container with arguments",
+                  "id": 17
+                }
+              }
+            },
+            "2": {
+              "title": "Setter based dependency injection",
+              "id": 20,
+              "ideas": {
+                "1": {
+                  "title": "container calling setter methods on your beans after invoking a no-argument constructor",
+                  "id": 21
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-11": {
+      "title": "AOP",
+      "id": 6
+    },
+    "-21": {
+      "title": "Container",
+      "id": 7
+    },
+    "-31": {
+      "title": "MVC Framework",
+      "id": 8
+    },
+    "-41": {
+      "title": "Transaction Management",
+      "id": 9
+    },
+    "-51": {
+      "title": "Exception Handling",
+      "id": 10
+    }
+  }
+}
