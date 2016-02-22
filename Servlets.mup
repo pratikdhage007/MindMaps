@@ -1,0 +1,131 @@
+{
+  "title": "Servlets",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#ffff00"
+    },
+    "attachment": {
+      "contentType": "text/html",
+      "content": "<span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">programs that run on a Web or Application server and act as a middle layer between HTTP client and databases or applications on the HTTP server.</span>"
+    }
+  },
+  "ideas": {
+    "5": {
+      "title": "Major Taska",
+      "id": 3,
+      "attr": {
+        "style": {}
+      }
+    },
+    "10": {
+      "title": "LIFE CYCLE",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "initialized by init() method",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "called only once (when servlet is first created, for subsequent requests its not called)",
+              "id": 9,
+              "ideas": {
+                "1": {
+                  "title": "used to create ot load some data that willl be used throughout the life of the servlet",
+                  "id": 15
+                }
+              },
+              "attr": {
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              101,
+              -280.5149287499273,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "servlet container (i.e Web server) calls service() method to process clients request",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "for each request, a new thread is created can service() is called. Checks request type (GET, POST, PUT, DELETE) and calls doGet,doPost,doPut,doDelete",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "doGet() by GET request or from an HTML Form that has no METHOD specified",
+                  "id": 13,
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "get data from the server",
+                      "id": 17
+                    }
+                  }
+                },
+                "2": {
+                  "title": "doPost() is to process data on the server",
+                  "id": 18
+                }
+              },
+              "attr": {
+                "style": {},
+                "position": [
+                  241,
+                  -139.27239312489098,
+                  1
+                ]
+              }
+            },
+            "2": {
+              "title": "have to overwrite appropriate do method based on the HTTP Request ",
+              "id": 19
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "terminated by calling destroy() and then Garbage collected",
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "called only once",
+              "id": 14,
+              "ideas": {
+                "1": {
+                  "title": "close D B connections, Halt background threads, write cookie list or hit counts to disk",
+                  "id": 16
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "position": [
+          149,
+          29.5,
+          2
+        ],
+        "style": {}
+      }
+    },
+    "-6": {
+      "title": "Adv of \nServlets over CGI",
+      "id": 2,
+      "attr": {
+        "style": {}
+      }
+    }
+  }
+}
