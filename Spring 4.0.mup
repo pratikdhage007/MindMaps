@@ -906,6 +906,37 @@
               }
             }
           }
+        },
+        "2": {
+          "title": "Transaction management",
+          "id": 197,
+          "ideas": {
+            "1": {
+              "title": "Programmatic",
+              "id": 198,
+              "ideas": {
+                "1": {
+                  "title": "extreme flexibility but difficult to maintain",
+                  "id": 200
+                }
+              }
+            },
+            "2": {
+              "title": "Declarative",
+              "id": 199,
+              "ideas": {
+                "1": {
+                  "title": "separate transaction from business code",
+                  "id": 201,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "Use only annotation or XML Based configuration",
+                  "id": 203
+                }
+              }
+            }
+          }
         }
       }
     }
