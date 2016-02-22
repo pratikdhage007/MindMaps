@@ -13,10 +13,15 @@
   },
   "ideas": {
     "5": {
-      "title": "Major Taska",
+      "title": "Major Tasks",
       "id": 3,
       "attr": {
-        "style": {}
+        "style": {},
+        "position": [
+          172,
+          -585,
+          13
+        ]
       }
     },
     "10": {
@@ -108,6 +113,14 @@
                 }
               }
             }
+          },
+          "attr": {
+            "position": [
+              113,
+              232.5,
+              2
+            ],
+            "style": {}
           }
         }
       },
@@ -120,12 +133,344 @@
         "style": {}
       }
     },
+    "12": {
+      "title": "Error Handling",
+      "id": 47,
+      "ideas": {
+        "1": {
+          "title": "Central Error Handling Page",
+          "id": 45,
+          "ideas": {
+            "1": {
+              "title": "Use the error-page element in web.xml to specify the invocation of servlets in response to certain exceptions or HTTP status codes.",
+              "id": 46
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Central Error Handler ",
+          "id": 48,
+          "ideas": {
+            "1": {
+              "title": "a generic Error Handler for all the exceptions",
+              "id": 50
+            }
+          },
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "<pre class=\"prettyprint notranslate prettyprinted\" style=\"box-sizing: border-box; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; padding: 5px; margin-bottom: 10px; border-radius: 0px; width: 708px; line-height: 16px; border-color: rgb(214, 214, 214); font-size: 12px; overflow: auto; color: rgb(49, 49, 49); background-color: rgb(238, 238, 238);\"><span class=\"tag\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">&lt;error-page&gt;</span><span class=\"pln\" style=\"box-sizing: border-box;\">\n   </span><span class=\"tag\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">&lt;exception-type&gt;</span><span class=\"pln\" style=\"box-sizing: border-box;\">java.lang.Throwable</span><span class=\"tag\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">&lt;/exception-type</span><span class=\"pln\" style=\"box-sizing: border-box;\"> </span><span class=\"tag\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">&gt;</span><span class=\"pln\" style=\"box-sizing: border-box;\">\n   </span><span class=\"tag\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">&lt;location&gt;</span><span class=\"pln\" style=\"box-sizing: border-box;\">/ErrorHandler</span><span class=\"tag\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">&lt;/location&gt;</span><span class=\"pln\" style=\"box-sizing: border-box;\">\n</span><span class=\"tag\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">&lt;/error-page&gt;</span></pre>"
+            },
+            "style": {}
+          }
+        }
+      }
+    },
+    "13": {
+      "title": "Cookies",
+      "id": 51,
+      "ideas": {
+        "1": {
+          "title": "text files stores on clients computer for session tracking purposes",
+          "id": 53
+        },
+        "2": {
+          "title": "Creation ",
+          "id": 54,
+          "ideas": {},
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "<p style=\"box-sizing: border-box; color: rgb(0, 0, 0); line-height: 24px; margin: 0em 0.2em 1em; word-wrap: break-word; padding: 0px; text-align: justify; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px !important;\">(1) Creating a Cookie object:</p><pre class=\"prettyprint notranslate prettyprinted\" style=\"box-sizing: border-box; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; padding: 5px; margin-bottom: 10px; border-radius: 0px; width: 708px; line-height: 16px; border-color: rgb(214, 214, 214); font-size: 12px; overflow: auto; color: rgb(49, 49, 49); background-color: rgb(238, 238, 238);\"><span class=\"typ\" style=\"box-sizing: border-box; color: rgb(127, 0, 85);\">Cookie</span><span class=\"pln\" style=\"box-sizing: border-box;\"> cookie </span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">=</span><span class=\"pln\" style=\"box-sizing: border-box;\"> </span><span class=\"kwd\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">new</span><span class=\"pln\" style=\"box-sizing: border-box;\"> </span><span class=\"typ\" style=\"box-sizing: border-box; color: rgb(127, 0, 85);\">Cookie</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">(</span><span class=\"str\" style=\"box-sizing: border-box; color: rgb(0, 136, 0);\">\"key\"</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">,</span><span class=\"str\" style=\"box-sizing: border-box; color: rgb(0, 136, 0);\">\"value\"</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">);</span></pre><p style=\"box-sizing: border-box; color: rgb(0, 0, 0); line-height: 24px; margin: 0em 0.2em 1em; word-wrap: break-word; padding: 0px; text-align: justify; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px !important;\">(2) Setting the maximum age: &nbsp;(in seconds)&nbsp;<br></p><pre class=\"prettyprint notranslate prettyprinted\" style=\"box-sizing: border-box; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; padding: 5px; margin-bottom: 10px; border-radius: 0px; width: 708px; line-height: 16px; border-color: rgb(214, 214, 214); font-size: 12px; overflow: auto; color: rgb(49, 49, 49); background-color: rgb(238, 238, 238);\"><span class=\"pln\" style=\"box-sizing: border-box;\">cookie</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">.</span><span class=\"pln\" style=\"box-sizing: border-box;\">setMaxAge</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">(</span><span class=\"lit\" style=\"box-sizing: border-box; color: rgb(0, 102, 102);\">60</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">*</span><span class=\"lit\" style=\"box-sizing: border-box; color: rgb(0, 102, 102);\">60</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">*</span><span class=\"lit\" style=\"box-sizing: border-box; color: rgb(0, 102, 102);\">24</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">);</span><span class=\"pln\" style=\"box-sizing: border-box;\"> </span></pre><p style=\"box-sizing: border-box; color: rgb(0, 0, 0); line-height: 24px; margin: 0em 0.2em 1em; word-wrap: break-word; padding: 0px; text-align: justify; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px !important;\">(3) Sending the Cookie into the HTTP response headers:</p><pre class=\"prettyprint notranslate prettyprinted\" style=\"box-sizing: border-box; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; padding: 5px; margin-bottom: 10px; border-radius: 0px; width: 708px; line-height: 16px; border-color: rgb(214, 214, 214); font-size: 12px; overflow: auto; color: rgb(49, 49, 49); background-color: rgb(238, 238, 238);\"><span class=\"pln\" style=\"box-sizing: border-box;\">response</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">.</span><span class=\"pln\" style=\"box-sizing: border-box;\">addCookie</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">(</span><span class=\"pln\" style=\"box-sizing: border-box;\">cookie</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">);</span></pre>"
+            },
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "Reading cookie using servlet",
+          "id": 56,
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "<span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">1. create an array of javax.servlet.http.Cookie objects by calling the getCookies( ) method of HttpServletRequest.&nbsp;</span><div><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\"><br></span></div><div><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">2. cycle through the array, and use getName() and getValue() methods to access each cookie and associated value.</span></div>"
+            },
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "delete",
+          "id": 57,
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "<ol><li><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify; background-color: initial;\">Read an already exsiting cookie and store it in Cookie object.</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify; background-color: initial;\">Set cookie age as zero using setMaxAge() method to delete an existing cookie.</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify; background-color: initial;\">Add this cookie back into response header.</span><br></li></ol>"
+            },
+            "style": {}
+          }
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    },
+    "14": {
+      "title": "Session",
+      "id": 58,
+      "ideas": {
+        "1": {
+          "title": "identify a user across more than one page request (for a specified time period)",
+          "id": 59
+        },
+        "2": {
+          "title": "create",
+          "id": 62,
+          "ideas": {
+            "1": {
+              "title": "HttpSession session = request.getSession();",
+              "id": 64
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "delete",
+          "id": 65,
+          "ideas": {},
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "<ol><li><b style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; box-sizing: border-box; background-color: initial;\">Remove a particular attribute:</b><span style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; background-color: initial;\">&nbsp;</span><span style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; background-color: initial;\">&nbsp;removeAttribute(String key)&nbsp;</span><br></li><li><b style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; box-sizing: border-box; background-color: initial;\">Delete the whole session:</b><span style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; background-color: initial;\">&nbsp;</span><span style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; background-color: initial;\">void invalidate() method to discard an entire session OR</span></li><li><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify; background-color: initial;\"><b>Setting Session timeout:</b>&nbsp;void setMaxInactiveInterval(int interval) method to set the timeout for a session individually.</span><br></li><li><b style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; box-sizing: border-box; background-color: initial;\">Log the user out:</b><span style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; background-color: initial;\">&nbsp;</span><span style=\"font-size: 15px; text-align: justify; color: rgb(0, 0, 0); line-height: 24px; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; background-color: initial;\">The servers that support servlets 2.4, you can call logout to log the client out of the Web server and invalidate all sessions belonging to all the users.</span><br></li></ol>"
+            },
+            "style": {}
+          }
+        }
+      }
+    },
+    "15": {
+      "title": "URL rewriting",
+      "id": 60,
+      "ideas": {
+        "1": {
+          "title": "append  some extra data on the end of each URL",
+          "id": 61
+        }
+      }
+    },
+    "16": {
+      "title": "Internalization",
+      "id": 67,
+      "ideas": {
+        "1": {
+          "title": "providing different versions of translated content",
+          "id": 69
+        }
+      }
+    },
+    "17": {
+      "title": "Localization",
+      "id": 68,
+      "ideas": {
+        "1": {
+          "title": "adding resources to a web site to adapt it to a particular geographical or cultural region for example Hindi translation to a web site.",
+          "id": 70
+        }
+      }
+    },
+    "27": {
+      "title": "Locale",
+      "id": 71,
+      "attr": {
+        "position": [
+          17,
+          1368,
+          12
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "This is a particular cultural or geographical region. For example \"en_US\" represents english locale for US.",
+          "id": 72,
+          "attr": {
+            "style": {},
+            "position": [
+              149,
+              -88,
+              1
+            ]
+          }
+        },
+        "2": {
+          "title": "detect locale: java.util.Locale request.getLocale()  ",
+          "id": 73,
+          "attr": {
+            "position": [
+              102,
+              66,
+              2
+            ],
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "String getDisplayCountry()",
+          "id": 74
+        }
+      }
+    },
     "-6": {
       "title": "Adv of \nServlets over CGI",
       "id": 2,
       "attr": {
         "style": {}
       }
+    },
+    "-7": {
+      "title": "Read Form data in a servlet",
+      "id": 20,
+      "ideas": {
+        "1": {
+          "title": "getParameter(): get the value of a form parameter",
+          "id": 21
+        },
+        "2": {
+          "title": "getParameterValues(): if parameter appears more than once adn returns multiple values, eg. checkbox",
+          "id": 22
+        },
+        "3": {
+          "title": "getParameterNames() of HttpServletRequest: complete list of all the parameter in the current request. Returns an enum. loop through it",
+          "id": 23
+        },
+        "4": {
+          "title": "Read Http HEader via getHeaderNames() of HttpServletRequest. Returns enum",
+          "id": 24
+        }
+      }
+    },
+    "-17": {
+      "title": "PrintWriter() Write html contents using servlets ",
+      "id": 25,
+      "attr": {
+        "position": [
+          224,
+          137,
+          8
+        ],
+        "style": {},
+        "attachment": {
+          "contentType": "text/html",
+          "content": "<p style=\"box-sizing: border-box; color: rgb(0, 0, 0); line-height: 24px; margin: 0em 0.2em 1em; word-wrap: break-word; padding: 0px; text-align: justify; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px !important;\">Get the object of PrintWriter using request.</p><pre class=\"prettyprint notranslate prettyprinted\" style=\"box-sizing: border-box; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; padding: 5px; margin-bottom: 10px; border-radius: 0px; width: 708px; line-height: 16px; border-color: rgb(214, 214, 214); font-size: 12px; overflow: auto; color: rgb(49, 49, 49); background-color: rgb(238, 238, 238);\"><span class=\"typ\" style=\"box-sizing: border-box; color: rgb(127, 0, 85);\">PrintWriter</span><span class=\"pln\" style=\"box-sizing: border-box;\"> </span><span class=\"kwd\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">out</span><span class=\"pln\" style=\"box-sizing: border-box;\"> </span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">=</span><span class=\"pln\" style=\"box-sizing: border-box;\"> response</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">.</span><span class=\"pln\" style=\"box-sizing: border-box;\">getWriter</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">();</span></pre><p style=\"box-sizing: border-box; color: rgb(0, 0, 0); line-height: 24px; margin: 0em 0.2em 1em; word-wrap: break-word; padding: 0px; text-align: justify; font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px !important;\">Now print html.</p><pre class=\"prettyprint notranslate prettyprinted\" style=\"box-sizing: border-box; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; padding: 5px; margin-bottom: 10px; border-radius: 0px; width: 708px; line-height: 16px; border-color: rgb(214, 214, 214); font-size: 12px; overflow: auto; color: rgb(49, 49, 49); background-color: rgb(238, 238, 238);\"><span class=\"kwd\" style=\"box-sizing: border-box; color: rgb(0, 0, 136);\">out</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">.</span><span class=\"pln\" style=\"box-sizing: border-box;\">println</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">(</span><span class=\"str\" style=\"box-sizing: border-box; color: rgb(0, 136, 0);\">\"Hello World\"</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">);</span></pre>"
+        }
+      },
+      "ideas": {}
+    },
+    "-27": {
+      "title": "Send Authentication error (407 Error)",
+      "id": 29,
+      "attr": {
+        "position": [
+          234,
+          214,
+          9
+        ],
+        "style": {},
+        "attachment": {
+          "contentType": "text/html",
+          "content": "<span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">&nbsp;setStatus(statuscode) method of HttpServletResponse</span><div><pre class=\"prettyprint notranslate prettyprinted\" style=\"box-sizing: border-box; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; padding: 5px; margin-bottom: 10px; border-radius: 0px; width: 708px; line-height: 16px; border-color: rgb(214, 214, 214); font-size: 12px; overflow: auto; color: rgb(49, 49, 49); background-color: rgb(238, 238, 238);\"><span class=\"com\" style=\"box-sizing: border-box; color: rgb(136, 0, 0);\">// Set error code and reason.</span><span class=\"pln\" style=\"box-sizing: border-box;\">\nresponse</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">.</span><span class=\"pln\" style=\"box-sizing: border-box;\">sendError</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">(</span><span class=\"lit\" style=\"box-sizing: border-box; color: rgb(0, 102, 102);\">407</span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">,</span><span class=\"pln\" style=\"box-sizing: border-box;\"> </span><span class=\"str\" style=\"box-sizing: border-box; color: rgb(0, 136, 0);\">\"Need authentication!!!\"</span><span class=\"pln\" style=\"box-sizing: border-box;\"> </span><span class=\"pun\" style=\"box-sizing: border-box; color: rgb(102, 102, 0);\">);</span></pre></div>"
+        }
+      }
+    },
+    "-37": {
+      "title": "Redirect a request: sendRedirect()",
+      "id": 30,
+      "attr": {
+        "position": [
+          222,
+          352,
+          10
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "generates 302 response along with location header giving the URL of the new document",
+          "id": 31
+        }
+      }
+    },
+    "-47": {
+      "title": "sendError() method for 404 ot others sends a short error",
+      "id": 33,
+      "attr": {
+        "position": [
+          257,
+          458,
+          11
+        ],
+        "style": {}
+      }
+    },
+    "-57": {
+      "title": "Servlets Filter (java classes) Types: authentication, Data Compression, Encryption, Loggign MIME type chail filters etc",
+      "id": 34,
+      "attr": {
+        "style": {},
+        "position": [
+          339,
+          621,
+          7
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "to intercept request from a client before they access a resource at the backend",
+          "id": 35
+        },
+        "2": {
+          "title": "To manipulate responses from server before they are sent back to the client",
+          "id": 37
+        },
+        "3": {
+          "title": "mapping",
+          "id": 38,
+          "ideas": {
+            "1": {
+              "title": "Filters are deployed in the deployment descriptor file web.xml and then map to either servlet names or URL patterns in your application's deployment descriptor.",
+              "id": 39
+            }
+          }
+        },
+        "4": {
+          "title": "init()",
+          "id": 40
+        },
+        "5": {
+          "title": "doFilter()",
+          "id": 41
+        },
+        "6": {
+          "title": "destroy()",
+          "id": 42
+        },
+        "7": {
+          "title": "FILTER ORDERING :The order of filter-mapping elements in web.xml determines the order in which the web container applies the filter to the servlet",
+          "id": 43,
+          "attr": {
+            "position": [
+              235,
+              264,
+              1
+            ],
+            "style": {}
+          }
+        }
+      }
     }
-  }
+  },
+  "links": []
 }
