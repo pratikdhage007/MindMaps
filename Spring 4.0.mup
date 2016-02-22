@@ -49,12 +49,58 @@
               }
             }
           }
+        },
+        "4": {
+          "title": "Benefits of IOC",
+          "id": 23,
+          "ideas": {
+            "1": {
+              "title": "minimizes amount of code",
+              "id": 24
+            },
+            "2": {
+              "title": "easy to test as no singletons ot JNDI lookup",
+              "id": 25
+            },
+            "3": {
+              "title": "Loose coupling is promoted",
+              "id": 26
+            },
+            "4": {
+              "title": "IOC Container supports lazy and eager loading",
+              "id": 27
+            }
+          }
+        },
+        "5": {
+          "title": "Types of IOC Containers",
+          "id": 30,
+          "ideas": {
+            "1": {
+              "title": "BeanFactory Contsiner",
+              "id": 31
+            },
+            "2": {
+              "title": "Spring ApplicationContext Container",
+              "id": 32
+            }
+          }
         }
       }
     },
     "-11": {
       "title": "AOP",
-      "id": 6
+      "id": 6,
+      "ideas": {
+        "1": {
+          "title": "modularize croiss cutting concerns such a s logging o r transactions",
+          "id": 28
+        },
+        "2": {
+          "title": "behaviour that cuts accross typical division of responsibility",
+          "id": 29
+        }
+      }
     },
     "-21": {
       "title": "Container",
