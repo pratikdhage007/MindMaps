@@ -416,6 +416,75 @@
         }
       }
     },
+    "16": {
+      "title": "Spring MVC Frameworks",
+      "id": 204,
+      "ideas": {
+        "1": {
+          "title": "DispatcherServlet",
+          "id": 206,
+          "ideas": {
+            "1": {
+              "title": "Handles all HTTP request and responses",
+              "id": 207
+            }
+          }
+        },
+        "2": {
+          "title": "WebApplicationContext",
+          "id": 208,
+          "ideas": {
+            "1": {
+              "title": "Extention of ApplicationContext with SOME EXTRA features. Differs from AC in that it can resolve themes.",
+              "id": 209
+            }
+          }
+        },
+        "3": {
+          "title": "Controller ",
+          "id": 210,
+          "ideas": {
+            "1": {
+              "title": "Provides access to the application behavior defined through service interface",
+              "id": 211,
+              "ideas": {
+                "1": {
+                  "title": "interprets user input adn transform it into a model that is represented to the suer by a view",
+                  "id": 212
+                }
+              }
+            },
+            "2": {
+              "title": "@Controller",
+              "id": 213,
+              "ideas": {
+                "1": {
+                  "title": "the particular class serves the role of a controller",
+                  "id": 214
+                }
+              }
+            },
+            "3": {
+              "title": "@RequestMapping",
+              "id": 215,
+              "ideas": {
+                "1": {
+                  "title": "map URL to  a class or particular handler method",
+                  "id": 216
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "attachment": {
+          "contentType": "text/html",
+          "content": "<span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">The Spring web MVC framework provides model-view-controller architecture and ready components that can be used to develop flexible and loosely coupled web applications. The MVC pattern results in separating the different aspects of the application (input logic, business logic, and UI logic), while providing a loose coupling between these elements.</span>"
+        },
+        "style": {}
+      }
+    },
     "-1": {
       "title": "IOC/Dep. Injection",
       "id": 5,
@@ -931,9 +1000,41 @@
                   "ideas": {}
                 },
                 "2": {
-                  "title": "Use only annotation or XML Based configuration",
+                  "title": "Use annotation or XML Based configuration",
                   "id": 203
                 }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-25": {
+      "title": "ORM Supportr",
+      "id": 217,
+      "ideas": {
+        "1": {
+          "title": "Hibernate, iBatis, JPA, TopLink, JDO",
+          "id": 218
+        },
+        "2": {
+          "title": "2 ways to access Hibernate using Spring",
+          "id": 219,
+          "ideas": {
+            "1": {
+              "title": "IOC with a hibernate Template and Callback",
+              "id": 220
+            },
+            "2": {
+              "title": "Extending HibernateDAOSupport and Applying an AOP Interceptor node",
+              "id": 221,
+              "attr": {
+                "position": [
+                  161.5,
+                  83.5,
+                  1
+                ],
+                "style": {}
               }
             }
           }
