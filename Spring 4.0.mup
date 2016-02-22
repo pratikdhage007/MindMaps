@@ -238,6 +238,25 @@
                   "id": 93
                 }
               }
+            },
+            "6": {
+              "title": "LIMITATIONS",
+              "id": 94,
+              "ideas": {
+                "1": {
+                  "title": "Overriding possibility",
+                  "id": 97,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "primitive datatype",
+                  "id": 99
+                },
+                "3": {
+                  "title": "Confusing nature",
+                  "id": 100
+                }
+              }
             }
           },
           "attr": {
@@ -422,6 +441,16 @@
           454,
           1
         ]
+      }
+    },
+    "-12": {
+      "title": "Annotation Based Container Configuration",
+      "id": 101,
+      "ideas": {
+        "1": {
+          "title": "Alternative to XML Setup. Instead of XML to describe bean wiring",
+          "id": 102
+        }
       }
     }
   },
