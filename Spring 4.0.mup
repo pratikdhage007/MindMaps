@@ -27,7 +27,12 @@
         }
       },
       "attr": {
-        "style": {}
+        "style": {},
+        "position": [
+          327.5,
+          -1205,
+          9
+        ]
       }
     },
     "3": {
@@ -79,6 +84,14 @@
           "title": "Exception Handling",
           "id": 45
         }
+      },
+      "attr": {
+        "position": [
+          221.5,
+          -788,
+          10
+        ],
+        "style": {}
       }
     },
     "4": {
@@ -267,6 +280,14 @@
             "style": {}
           }
         }
+      },
+      "attr": {
+        "position": [
+          355.5,
+          -434,
+          11
+        ],
+        "style": {}
       }
     },
     "14": {
@@ -300,6 +321,96 @@
             "1": {
               "title": "name-value pairs where both name and value are Strings",
               "id": 81
+            }
+          }
+        }
+      }
+    },
+    "15": {
+      "title": "Spring event handling",
+      "id": 133,
+      "ideas": {
+        "1": {
+          "title": "in the ApplicationContext",
+          "id": 134,
+          "ideas": {
+            "1": {
+              "title": "provided through the ApplicationEvent Class & ApplicationListener Interface",
+              "id": 135
+            }
+          }
+        },
+        "2": {
+          "title": "Standard Events",
+          "id": 136,
+          "ideas": {
+            "1": {
+              "title": "ContextRefreshEvent",
+              "id": 137,
+              "ideas": {
+                "1": {
+                  "title": "This event is published when the ApplicationContext is either initialized or refreshed",
+                  "id": 139,
+                  "ideas": {
+                    "1": {
+                      "title": "can also be raised using the refresh() method on the ConfigurableApplicationContext interface",
+                      "id": 141
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "ContextStartedEvent",
+              "id": 143,
+              "ideas": {
+                "1": {
+                  "title": "published when the ApplicationContext is started using the start() method on the ConfigurableApplicationContext interface",
+                  "id": 145,
+                  "ideas": {
+                    "1": {
+                      "title": "can poll your database or you can re/start any stopped application after receiving this event",
+                      "id": 146
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "ContextStoppedEvent",
+              "id": 148,
+              "ideas": {
+                "1": {
+                  "title": "published when the ApplicationContext is stopped using the stop() method on the ConfigurableApplicationContext interface",
+                  "id": 150,
+                  "ideas": {
+                    "1": {
+                      "title": "can do required housekeep work after receiving this event",
+                      "id": 152
+                    }
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "ContextClosedEvent",
+              "id": 153,
+              "ideas": {
+                "1": {
+                  "title": " ApplicationContext is closed using the close() method on the ConfigurableApplicationContext interface",
+                  "id": 155
+                }
+              }
+            },
+            "5": {
+              "title": "RequestHandledEvent",
+              "id": 156,
+              "ideas": {
+                "1": {
+                  "title": "a web-specific event telling all beans that an HTTP request has been serviced",
+                  "id": 158
+                }
+              }
             }
           }
         }
@@ -417,39 +528,384 @@
               "title": "Differences between the two",
               "id": 51
             }
+          },
+          "attr": {
+            "position": [
+              684.5,
+              371.1875,
+              1
+            ],
+            "style": {}
           }
         }
+      },
+      "attr": {
+        "position": [
+          446.5,
+          -902,
+          5
+        ],
+        "style": {}
       }
     },
-    "-11": {
-      "title": "AOP",
-      "id": 6,
+    "-13": {
+      "title": "JSR 250 based annotation",
+      "id": 114,
       "ideas": {
         "1": {
-          "title": "modularize croiss cutting concerns such a s logging o r transactions",
-          "id": 28
+          "title": "@PostConstruct",
+          "id": 119,
+          "ideas": {
+            "1": {
+              "title": "alternative to initialization callback",
+              "id": 122
+            }
+          }
         },
         "2": {
-          "title": "behaviour that cuts accross typical division of responsibility",
-          "id": 29
+          "title": "@PreDestroy",
+          "id": 120,
+          "ideas": {
+            "1": {
+              "title": "alternate to destruction callback",
+              "id": 123
+            }
+          }
+        },
+        "3": {
+          "title": "@Resource",
+          "id": 121,
+          "ideas": {
+            "1": {
+              "title": "used on fields or setter methods. Follows byName autowiring semantics",
+              "id": 124
+            }
+          }
         }
       },
       "attr": {
         "style": {},
         "position": [
-          239.5,
-          454,
-          1
+          268.5,
+          495,
+          13
         ]
       }
     },
-    "-12": {
-      "title": "Annotation Based Container Configuration",
-      "id": 101,
+    "-6": {
+      "title": "Spring Configurations",
+      "id": 125,
+      "attr": {
+        "style": {},
+        "position": [
+          327.5,
+          -288,
+          8
+        ],
+        "attachment": {
+          "contentType": "text/html",
+          "content": "<span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">Spring configuration file is an XML file. This file contains the classes information and describes how these classes are configured and introduced to each other.</span>"
+        }
+      },
       "ideas": {
         "1": {
-          "title": "Alternative to XML Setup. Instead of XML to describe bean wiring",
-          "id": 102
+          "title": "XML Based Configuration",
+          "id": 126
+        },
+        "2": {
+          "title": "Annotation-based configuration",
+          "id": 127,
+          "ideas": {
+            "1": {
+              "title": "Annotation Based Container Configuration",
+              "id": 101,
+              "ideas": {
+                "1": {
+                  "title": "Alternative to XML Setup. Instead of XML to describe bean wiring, use annotation on the relevant class, method or field",
+                  "id": 102
+                },
+                "2": {
+                  "title": "Turn on by<context:annotation-config> in Spring configuration file",
+                  "id": 105
+                },
+                "3": {
+                  "title": "@Required",
+                  "id": 107,
+                  "ideas": {
+                    "1": {
+                      "title": "throws beanInitialization Exception",
+                      "id": 109
+                    }
+                  }
+                },
+                "4": {
+                  "title": "@autowired",
+                  "id": 108,
+                  "ideas": {
+                    "1": {
+                      "title": "the setter method just like @Required annotation, constructor, a property or methods with arbitrary names and/or multiple arguments.",
+                      "id": 110,
+                      "attr": {
+                        "style": {}
+                      }
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Qualifier",
+                  "id": 111,
+                  "ideas": {
+                    "1": {
+                      "title": "2 beans of same type and still want to wire only with property --> use @Qualifier with @Autowired",
+                      "id": 113
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {}
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Java-based configuration",
+          "id": 128,
+          "ideas": {
+            "1": {
+              "title": "Spring Configuration without XML, with the help of java-based annotations",
+              "id": 130,
+              "ideas": {
+                "1": {
+                  "title": "@Configuration tells IOC Container that this class is to be used as a source of bean definition",
+                  "id": 131
+                },
+                "2": {
+                  "title": "@Bean tells Spring that the method annotated with @Bean will return an object that should be registered as a bean in Spring Application Context",
+                  "id": 132
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-23": {
+      "title": "AOP",
+      "id": 6,
+      "ideas": {
+        "1": {
+          "title": "modularize croiss cutting concerns such a s logging o r transactions",
+          "id": 28,
+          "attr": {
+            "position": [
+              167,
+              -259.5,
+              5
+            ],
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "behaviour that cuts accross typical division of responsibility",
+          "id": 29,
+          "attr": {
+            "position": [
+              171,
+              -135.5,
+              6
+            ],
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "Aspect (A module which has a set of APIs providing cross-cutting requirements)",
+          "id": 160,
+          "ideas": {
+            "1": {
+              "title": "a logging module would be called AOP aspect for logging.",
+              "id": 162,
+              "attr": {
+                "position": [
+                  231,
+                  -89,
+                  1
+                ],
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "Implemented using ",
+                  "id": 163,
+                  "ideas": {
+                    "1": {
+                      "title": "Regular Classes  (along with the XML schema-based approach)",
+                      "id": 164
+                    },
+                    "2": {
+                      "title": "@Aspect Annotation on regular java classes.(@AspectJ style).",
+                      "id": 165,
+                      "attr": {
+                        "position": [
+                          117,
+                          64.5,
+                          1
+                        ],
+                        "style": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              120,
+              51.5,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "Concern",
+          "id": 166,
+          "ideas": {
+            "1": {
+              "title": "a functionality we want to implement",
+              "id": 167
+            },
+            "2": {
+              "title": "Corss Cutting Concern",
+              "id": 168,
+              "ideas": {
+                "1": {
+                  "title": "concern which is applicable throughout the application and it affects the entire application. e.g. logging , security and data transfer are the concerns which are needed in almost every module of an application, hence are cross-cutting concerns",
+                  "id": 170
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "Join Point",
+          "id": 171,
+          "ideas": {
+            "1": {
+              "title": "Point in the application where you can plugin your AOP Aspect",
+              "id": 172
+            },
+            "2": {
+              "title": "the actual place in the application where an action will be taken using Spring AOP framework",
+              "id": 173
+            }
+          }
+        },
+        "6": {
+          "title": "Advice",
+          "id": 174,
+          "ideas": {
+            "1": {
+              "title": "Actual action to be taken (piece of code to be executed) either before or after method execution",
+              "id": 175
+            },
+            "2": {
+              "title": "5 Types of advice",
+              "id": 183,
+              "ideas": {
+                "1": {
+                  "title": "before : run advice before a method execution",
+                  "id": 184
+                },
+                "2": {
+                  "title": "after: after method regardless of its outcome",
+                  "id": 185
+                },
+                "3": {
+                  "title": "after-returning : after successful completion of method",
+                  "id": 186
+                },
+                "4": {
+                  "title": "after throwing: if method exits by throwing an exception",
+                  "id": 187
+                },
+                "5": {
+                  "title": "around: before and after the advised method is invoked",
+                  "id": 188,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            }
+          }
+        },
+        "7": {
+          "title": "Point cut",
+          "id": 176,
+          "ideas": {
+            "1": {
+              "title": "set of one or more join points where an advice should be executed",
+              "id": 177,
+              "ideas": {
+                "1": {
+                  "title": "can specify pointcuts using expressions or patterns",
+                  "id": 178
+                }
+              }
+            }
+          }
+        },
+        "8": {
+          "title": "Introduction ???",
+          "id": 179
+        },
+        "9": {
+          "title": "Target Objects",
+          "id": 180
+        },
+        "10": {
+          "title": "Weaving",
+          "id": 181
+        }
+      },
+      "attr": {
+        "style": {},
+        "position": [
+          687.5,
+          867,
+          12
+        ]
+      }
+    },
+    "-24": {
+      "title": "JDBC",
+      "id": 189,
+      "ideas": {
+        "1": {
+          "title": "Can be used more effectively using a template class provided by spring framework known as JdbcTemplate",
+          "id": 190,
+          "ideas": {
+            "1": {
+              "title": "resource management and error handling is reduced",
+              "id": 191
+            },
+            "2": {
+              "title": "Provides convinience methods ",
+              "id": 192,
+              "ideas": {
+                "1": {
+                  "title": "concerting dfatabase data into primitives or objects",
+                  "id": 194
+                },
+                "2": {
+                  "title": "custom database error handling",
+                  "id": 195
+                }
+              }
+            }
+          }
         }
       }
     }
