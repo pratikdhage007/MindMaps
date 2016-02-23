@@ -12,12 +12,30 @@
       "title": "Behavioural : concerned with Communication between Objects",
       "id": 3,
       "attr": {
-        "style": {},
+        "style": {
+          "background": "#ffcc99"
+        },
         "position": [
           295,
           173.5,
           3
         ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Observer: publisher  + subscriber",
+          "id": 35,
+          "ideas": {
+            "1": {
+              "title": "Job seekers subscribe to a head hunter, and head hunter notifies job seekers when there is a new job opportunity",
+              "id": 36
+            }
+          }
+        },
+        "2": {
+          "title": "State pattern",
+          "id": 38
+        }
       }
     },
     "-20": {
@@ -29,7 +47,9 @@
           -131.5,
           6
         ],
-        "style": {}
+        "style": {
+          "background": "#ffff00"
+        }
       },
       "ideas": {
         "1": {
@@ -75,7 +95,48 @@
                 }
               }
             }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff99cc"
+            }
           }
+        },
+        "2": {
+          "title": "Factory : create Object based on different Parameters",
+          "id": 11,
+          "ideas": {
+            "2": {
+              "title": "Cake Factory, Human Factory",
+              "id": 13
+            },
+            "12": {
+              "title": "java.util.Calendar",
+              "id": 12,
+              "attr": {
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff99cc"
+            }
+          }
+        },
+        "3": {
+          "title": "Abstract Factory: Factory of Factories",
+          "id": 14,
+          "ideas": {}
+        },
+        "4": {
+          "title": "Builder :  Step by Step to build something",
+          "id": 16
+        },
+        "5": {
+          "title": "Prototype: when we need large # of similar objects",
+          "id": 17,
+          "ideas": {}
         }
       }
     },
@@ -84,12 +145,83 @@
       "id": 4,
       "attr": {
         "position": [
-          109,
-          -98.5,
-          5
+          81,
+          -438,
+          7
         ],
-        "style": {}
+        "style": {
+          "background": "#00ffff"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Adapter: Adapter Plug for USA and INDIA",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "InputStreamReader OutputStreamReader",
+              "id": 20
+            }
+          }
+        },
+        "2": {
+          "title": "Bridge: decouple an abstraction from its implementation so that the two can vary independently",
+          "id": 21,
+          "ideas": {}
+        },
+        "3": {
+          "title": "Composite: hierarchical tree accesses by using a uniform method",
+          "id": 23
+        },
+        "4": {
+          "title": "Decorator: adds additional feature to an existing object DYNAMICALLY",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "BufferedReader decorates InputStreamReader",
+              "id": 25
+            }
+          }
+        },
+        "5": {
+          "title": "Facade: Hides Complexity of Task and provides a simple interface",
+          "id": 26,
+          "ideas": {
+            "1": {
+              "title": "CPU, Memory & HDD hidden inside Computer",
+              "id": 27
+            }
+          }
+        },
+        "6": {
+          "title": "FlyWeight: minimize memory. REDUCE WEIGHT ON THE FLY!!",
+          "id": 28
+        },
+        "7": {
+          "title": "Proxy/Agent : ",
+          "id": 29
+        },
+        "8": {
+          "title": "MVC",
+          "id": 30,
+          "ideas": {
+            "1": {
+              "title": "Controller: map incoming HTTP request to actions",
+              "id": 31,
+              "ideas": {}
+            },
+            "2": {
+              "title": "Model: ",
+              "id": 33
+            },
+            "3": {
+              "title": "View : Presentation Component",
+              "id": 34
+            }
+          }
+        }
       }
     }
-  }
+  },
+  "links": []
 }
