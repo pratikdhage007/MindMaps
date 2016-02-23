@@ -283,9 +283,9 @@
       },
       "attr": {
         "position": [
-          355.5,
-          -434,
-          11
+          543.4844906265671,
+          -415.4322570509437,
+          18
         ],
         "style": {}
       }
@@ -324,6 +324,14 @@
             }
           }
         }
+      },
+      "attr": {
+        "style": {},
+        "position": [
+          182.4907162125046,
+          -37.42926632828744,
+          19
+        ]
       }
     },
     "15": {
@@ -397,7 +405,7 @@
               "id": 153,
               "ideas": {
                 "1": {
-                  "title": " ApplicationContext is closed using the close() method on the ConfigurableApplicationContext interface",
+                  "title": "Â ApplicationContext is closed using the close() method on the ConfigurableApplicationContext interface",
                   "id": 155
                 }
               }
@@ -543,6 +551,14 @@
               "title": "IOC Container supports lazy and eager loading",
               "id": 27
             }
+          },
+          "attr": {
+            "position": [
+              355.4992801426931,
+              188.91553813750738,
+              2
+            ],
+            "style": {}
           }
         },
         "5": {
@@ -568,7 +584,7 @@
               }
             },
             "2": {
-              "title": "Spring ApplicationContext Container",
+              "title": "Spring ApplicationContext Container (Adv will all facility of \nBean Factory container)",
               "id": 32,
               "ideas": {
                 "1": {
@@ -610,9 +626,9 @@
       },
       "attr": {
         "position": [
-          446.5,
-          -902,
-          5
+          188.01749913683375,
+          -925.687710161614,
+          14
         ],
         "style": {}
       }
@@ -667,9 +683,9 @@
       "attr": {
         "style": {},
         "position": [
-          327.5,
-          -288,
-          8
+          170.01469151964625,
+          53.50241595419129,
+          17
         ],
         "attachment": {
           "contentType": "text/html",
@@ -942,9 +958,9 @@
       "attr": {
         "style": {},
         "position": [
-          687.5,
-          867,
-          12
+          809.00095860949,
+          827.268354783555,
+          16
         ]
       }
     },
