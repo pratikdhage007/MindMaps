@@ -1,0 +1,182 @@
+{
+  "title": "REST (REpresentational State Transfer)",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#ffcc99"
+    }
+  },
+  "ideas": {
+    "1": {
+      "title": "Web standard based architecture & uses HTTP protocol fo rdata comm.",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "every compnent is a resiurce accessed by a common interface using HTTP standard methods",
+          "id": 3,
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">a REST Server simply provides access to resources and REST client accesses and presents the resources.&nbsp;</span></li></ul><div><ul><li><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">each resource is identified by URIs/ global IDs.&nbsp;</span></li><li><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">REST uses various representations to represent a resource like text, JSON and XML. &nbsp;JSON is the most popular format being used in web services.</span><br></li></ul></div>"
+            },
+            "style": {}
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "messaging in RESTFul",
+      "id": 8,
+      "attr": {
+        "attachment": {
+          "contentType": "text/html",
+          "content": "<span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">A client sends a message in form of a HTTP Request and server responds in form of a HTTP Response. This technique is termed as Messaging. These messages contain message data and metadata i.e. information about message itself.</span>"
+        },
+        "style": {}
+      }
+    },
+    "3": {
+      "title": "URI Format: <protocol>://<service-name>/<ResourceType>/<ResourceID>",
+      "id": 19
+    },
+    "4": {
+      "title": "Statelessness",
+      "id": 20,
+      "ideas": {
+        "1": {
+          "title": "As per REST architecture, a RESTful web service should not keep a client state on server. This restriction is called statelessness.",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "It is responsibility of the client to pass its context to server and then server can store this context to process client's further request.",
+              "id": 22
+            }
+          }
+        },
+        "2": {
+          "title": "Advantages ???",
+          "id": 24,
+          "ideas": {}
+        }
+      }
+    },
+    "5": {
+      "title": "RESTful Web Service",
+      "id": 29,
+      "ideas": {
+        "2": {
+          "title": "GET: Read Only & safe",
+          "id": 27,
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "PUT and POST: put is idempotent and POST can cause different result",
+          "id": 28,
+          "attr": {
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "OPTIONS: Read Only: list down the supported operations in a web service.",
+          "id": 32
+        }
+      }
+    },
+    "-1": {
+      "title": "Web services",
+      "id": 4,
+      "attr": {
+        "attachment": {
+          "contentType": "text/html",
+          "content": "<span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">A web service is a collection of open protocols and standards used for exchanging data between applications or systems.&nbsp;</span><div><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\"><br></span></div><div><span style=\"color: rgb(0, 0, 0); font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: justify;\">Software applications written in various programming languages and running on various platforms can use web services to exchange data over computer networks like the Internet in a manner similar to inter-process communication on a single computer.</span></div>"
+        },
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "used for exchanging data between applications or systems. ",
+          "id": 5
+        },
+        "2": {
+          "title": "Web services based on REST Architecture are known as RESTful web services",
+          "id": 7
+        }
+      }
+    },
+    "-2": {
+      "title": "HTTP Request  components",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "Verb (HTTP Methods such as GET,POST) / WEB SERVICES METHODS",
+          "id": 10,
+          "ideas": {}
+        },
+        "2": {
+          "title": "URI to identify resource on the server",
+          "id": 11
+        },
+        "3": {
+          "title": "HTTP Version (version number)",
+          "id": 12
+        },
+        "4": {
+          "title": "Request Header: metadata for the HTTP request as key-val pairs. eg client/browser type, format",
+          "id": 13
+        },
+        "5": {
+          "title": "Request body",
+          "id": 14
+        }
+      }
+    },
+    "-12": {
+      "title": "HTTP Response",
+      "id": 15,
+      "attr": {
+        "position": [
+          251,
+          163,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Status/Response Code: 404 : res. not found       200 is OK",
+          "id": 16
+        },
+        "2": {
+          "title": "HTTP Version",
+          "id": 17
+        },
+        "3": {
+          "title": "Response Header: Contains metadata for the HTTP response as key-val pairs. eg client/browser type, format",
+          "id": 18,
+          "attr": {
+            "position": [
+              174,
+              74,
+              1
+            ],
+            "style": {}
+          }
+        }
+      }
+    },
+    "-13": {
+      "title": "Idempotent Operation: th result will always be same no matter how many times the operations are invoked.",
+      "id": 25,
+      "ideas": {
+        "1": {
+          "title": "PUT and DELETE are idempotent",
+          "id": 26
+        }
+      }
+    }
+  },
+  "links": []
+}
