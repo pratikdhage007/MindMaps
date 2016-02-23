@@ -74,6 +74,50 @@
               "id": 42
             }
           }
+        },
+        "5": {
+          "title": "Visitor ?????",
+          "id": 44
+        },
+        "6": {
+          "title": "Chain of Responsibility",
+          "id": 47,
+          "ideas": {
+            "1": {
+              "title": "chain of processing units",
+              "id": 48,
+              "ideas": {
+                "1": {
+                  "title": "used in Filters authentication, logging etc",
+                  "id": 49
+                }
+              }
+            }
+          }
+        },
+        "7": {
+          "title": "Command",
+          "id": 51,
+          "ideas": {
+            "1": {
+              "title": "4 parts: Command, receiver, invoker and client",
+              "id": 52
+            }
+          }
+        },
+        "8": {
+          "title": "Iterator",
+          "id": 53
+        },
+        "9": {
+          "title": "Memento: Use Memento to time travel",
+          "id": 54,
+          "ideas": {
+            "1": {
+              "title": "allow an object to go back to the state",
+              "id": 57
+            }
+          }
         }
       }
     },
