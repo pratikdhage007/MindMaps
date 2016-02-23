@@ -1,0 +1,95 @@
+{
+  "title": "Design Patterns: Solutions ot Common Problems. Best Practices used by experienced developers",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#ff6600"
+    }
+  },
+  "ideas": {
+    "11": {
+      "title": "Behavioural : concerned with Communication between Objects",
+      "id": 3,
+      "attr": {
+        "style": {},
+        "position": [
+          295,
+          173.5,
+          3
+        ]
+      }
+    },
+    "-20": {
+      "title": "Creational : a way to create object while hiding creation logic",
+      "id": 2,
+      "attr": {
+        "position": [
+          132,
+          -131.5,
+          6
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Singleton",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "Eager Mode ",
+              "id": 7,
+              "attr": {
+                "position": [
+                  85,
+                  -57,
+                  2
+                ],
+                "style": {},
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "<pre class=\"java\" style=\"font-family: monospace; color: rgb(17, 0, 0); margin-bottom: 0px !important; padding: 0px 4px !important; border: none !important; border-radius: 0px !important; width: auto !important; clear: none !important; overflow: visible !important; line-height: 16px !important; white-space: pre !important; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px !important; background-image: initial !important; background-attachment: initial !important; background-color: rgb(249, 249, 249); background-size: initial !important; background-origin: initial !important; background-clip: initial !important; background-position: initial !important; background-repeat: initial !important;\"><p style=\"margin-bottom: 1.25em; padding: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 25.5px; text-rendering: optimizeLegibility; color: rgb(34, 34, 34); font-size: 17px; white-space: normal; background-color: rgb(255, 255, 255);\">Eager Mode:</p><div class=\"wp_syntax\" style=\"margin: 0px 1em 1.5em 0px; padding: 10px; border: 1px solid rgb(209, 209, 232); overflow-x: auto; overflow-y: hidden; border-radius: 4px; line-height: 25.5px; width: 708.094px; font-family: Arial, Helvetica, sans-serif; font-size: 17px; white-space: normal;\"><table style=\"width: 708px; margin: 0px !important; padding: 0px !important; border: none !important;\"><tbody style=\"margin: 0px; padding: 0px;\"><tr style=\"margin: 0px; padding: 0px;\"><td class=\"code\" style=\"margin: 0px; padding: 0px !important; border: none !important; vertical-align: top !important; background-image: none;\"><pre class=\"java\" style=\"font-family: monospace; margin-bottom: 0px !important; padding: 0px 4px !important; border: none !important; border-radius: 0px !important; width: auto !important; float: none !important; clear: none !important; overflow: visible !important; line-height: 16px !important; white-space: pre !important; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px !important; background: transparent !important;\"><span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">public</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">class</span> AmericaPresident <span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">{</span>\n\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">private</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">static</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">final</span> AmericaPresident thePresident <span style=\"margin: 0px; padding: 0px; color: rgb(51, 153, 51);\">=</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">new</span> AmericaPresident<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">(</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">)</span><span style=\"margin: 0px; padding: 0px; color: rgb(51, 153, 51);\">;</span>\n&nbsp;\n\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">private</span> AmericaPresident<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">(</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">)</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">{</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">}</span>\n&nbsp;\n\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">public</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">static</span> AmericaPresident getPresident<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">(</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">)</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">{</span>\n\t\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">return</span> thePresident<span style=\"margin: 0px; padding: 0px; color: rgb(51, 153, 51);\">;</span>\n\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">}</span>\n<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">}</span></pre></td></tr></tbody></table></div></pre>"
+                }
+              },
+              "ideas": {}
+            },
+            "2": {
+              "title": "Lazy Mode",
+              "id": 8,
+              "attr": {
+                "position": [
+                  84,
+                  59,
+                  3
+                ],
+                "style": {},
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "<p style=\"margin-bottom: 1.25em; padding: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 25.5px; text-rendering: optimizeLegibility; color: rgb(34, 34, 34); font-size: 17px;\">Lazy Mode:</p><div class=\"wp_syntax\" style=\"margin: 0px 1em 1.5em 0px; padding: 10px; color: rgb(17, 0, 0); border: 1px solid rgb(209, 209, 232); overflow-x: auto; overflow-y: hidden; border-radius: 4px; line-height: 25.5px; width: 708.094px; font-family: Arial, Helvetica, sans-serif; font-size: 17px; background-color: rgb(249, 249, 249);\"><table style=\"width: 708px; margin: 0px !important; padding: 0px !important; border: none !important;\"><tbody style=\"margin: 0px; padding: 0px;\"><tr style=\"margin: 0px; padding: 0px;\"><td class=\"code\" style=\"margin: 0px; padding: 0px !important; border: none !important; vertical-align: top !important; background-image: none;\"><pre class=\"java\" style=\"font-family: monospace; margin-bottom: 0px !important; padding: 0px 4px !important; border: none !important; border-radius: 0px !important; width: auto !important; float: none !important; clear: none !important; overflow: visible !important; line-height: 16px !important; white-space: pre !important; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px !important; background: transparent !important;\"><span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">public</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">class</span> AmericaPresident <span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">{</span>\n\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">private</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">static</span> AmericaPresident thePresident<span style=\"margin: 0px; padding: 0px; color: rgb(51, 153, 51);\">;</span>\n&nbsp;\n\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">private</span> AmericaPresident<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">(</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">)</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">{</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">}</span>\n&nbsp;\n\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">public</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">static</span> AmericaPresident getPresident<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">(</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">)</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">{</span>\n\t\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">if</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">(</span>thePresident <span style=\"margin: 0px; padding: 0px; color: rgb(51, 153, 51);\">==</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 102); font-weight: bold;\">null</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">)</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">{</span>\n\t\t\tthePresident <span style=\"margin: 0px; padding: 0px; color: rgb(51, 153, 51);\">=</span> <span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">new</span> AmericaPresident<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">(</span><span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">)</span><span style=\"margin: 0px; padding: 0px; color: rgb(51, 153, 51);\">;</span>\n\t\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">}</span>\n\t\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-weight: bold;\">return</span> thePresident<span style=\"margin: 0px; padding: 0px; color: rgb(51, 153, 51);\">;</span>\n\t<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">}</span>\n<span style=\"margin: 0px; padding: 0px; color: rgb(0, 153, 0);\">}</span></pre></td></tr></tbody></table></div>"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Initialized only when called for the first time ",
+                  "id": 10
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "5.5": {
+      "title": "Structural: class and object composition. Concept of Interface is used ot compose interfaces",
+      "id": 4,
+      "attr": {
+        "position": [
+          109,
+          -98.5,
+          5
+        ],
+        "style": {}
+      }
+    }
+  }
+}
