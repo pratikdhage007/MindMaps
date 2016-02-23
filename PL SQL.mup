@@ -1,0 +1,73 @@
+{
+  "title": "PL/SQL",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#00ff00"
+    }
+  },
+  "ideas": {
+    "1": {
+      "title": "Stored Function: can be called from othern fubction or procedire",
+      "id": 2
+    },
+    "11": {
+      "title": "Trigger",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "events on tables, views or system events",
+          "id": 4,
+          "ideas": {}
+        }
+      }
+    },
+    "12": {
+      "title": "Named Blocks",
+      "id": 11,
+      "ideas": {
+        "1": {
+          "title": "stored Function",
+          "id": 12,
+          "ideas": {}
+        },
+        "2": {
+          "title": "Stored Procedures",
+          "id": 14
+        }
+      }
+    },
+    "-1": {
+      "title": "Packages",
+      "id": 7,
+      "ideas": {
+        "1": {
+          "title": "Organize your procedures and Functions, variables",
+          "id": 8
+        }
+      }
+    },
+    "-2": {
+      "title": "Anonyous Block",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "To test Stored Function or procedure",
+          "id": 10
+        }
+      }
+    },
+    "-3": {
+      "title": "IMP COMMANDS",
+      "id": 15,
+      "attr": {
+        "attachment": {
+          "contentType": "text/html",
+          "content": "set serveroutput on;<div><br></div><div><div style=\"direction:ltr;border-width:100%\">\n\n<div style=\"direction:ltr;margin-top:0in;margin-left:0in;width:1.3187in\">\n\n<div style=\"direction:ltr;margin-top:0in;margin-left:0in;width:1.3187in\">\n\n<p style=\"margin:0in;font-family:Calibri;font-size:16.0pt;color:#1E4E79\">Console</p><p style=\"margin: 0in;\"><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">If procedure completed with compilation error</span></font></p><p style=\"margin: 0in;\"><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">sho err&nbsp;</span></font></p>\n\n</div>\n\n</div>\n\n</div></div>"
+        },
+        "style": {}
+      }
+    }
+  }
+}
