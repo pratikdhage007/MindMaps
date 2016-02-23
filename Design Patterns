@@ -17,8 +17,8 @@
         },
         "position": [
           295,
-          173.5,
-          3
+          233,
+          8
         ]
       },
       "ideas": {
@@ -30,11 +30,50 @@
               "title": "Job seekers subscribe to a head hunter, and head hunter notifies job seekers when there is a new job opportunity",
               "id": 36
             }
+          },
+          "attr": {
+            "style": {}
           }
         },
         "2": {
-          "title": "State pattern",
-          "id": 38
+          "title": "State pattern: changing behaviour of an object when state of the object changes",
+          "id": 38,
+          "attr": {
+            "style": {},
+            "position": [
+              138,
+              115,
+              2
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "poor state you work hard, Rich state you play more",
+              "id": 39
+            }
+          }
+        },
+        "3": {
+          "title": "Strategy : using different algorithms at different situations",
+          "id": 40,
+          "attr": {
+            "position": [
+              152,
+              202,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "Template: Define a workflow for achieving specific operation. Allows the subclass to modify certain steps",
+          "id": 41,
+          "ideas": {
+            "1": {
+              "title": "Spring framework's Data Access Object(DAO). org.springframework.jdbc.core.JdbcTemplate class has all the common repeated code blocks related with JDBC workflow, such as update, query, execute, etc",
+              "id": 42
+            }
+          }
         }
       }
     },
